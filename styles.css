@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bitter', serif;
+    background: rgb(212 222 233);
+}
+
+.container{
+    position: relative;
+    background: #eef3f7;
+    margin: 70px;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 35px -5px rgb(50 88 130 / 32%);
+}
+
+.container img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 35px 0 0 -25px;
+}
+
+.container-icons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 40px 50px 0 0;
+}
+
+i{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(172 185 202);
+    margin: 20px 0 0 0;
+}
+
+#play{
+    font-size: 70px;
+    margin: 30px -25px 0 0;
+}
+
+.text{
+    margin: 40px 0 0 0;
+}
+
+h3,h4{
+    margin: 0 0 10px 20px;
+    color: rgb(131 140 152);
+}
+
+.repro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 60px;
+    margin: 0 0 0 20px;
+    font-weight: bolder;
+}
+
+.barra{
+    width: 100%;
+    border: 3px solid rgb(208 213 232);
+    border-radius: 5px;
+}
+
+.num1{
+    margin: 0 0 0 270px;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: rgb(37, 95, 114);
+}
