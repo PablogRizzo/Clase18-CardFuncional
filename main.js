@@ -10,7 +10,7 @@ const play = document.querySelector("#play");
 
 play.addEventListener("click",(e)=>{
     if(e.target == play){
-        e.target.classList.toggle("blue");
+        e.target.classList.toggle('fa-play-circle');
     }
 });
 
